@@ -1,5 +1,14 @@
 package main
 
+/*
+Results
+--
+$ go test -v -bench BenchmarkListOfEntity -benchmem
+testing: warning: no tests to run
+BenchmarkListOfEntity-4         10000000               114 ns/op              96 B/op          3 allocs/op
+PASS
+*/
+
 import "testing"
 
 type list struct {
